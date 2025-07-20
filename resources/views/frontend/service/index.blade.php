@@ -23,30 +23,32 @@
             <div class="row g-5 mb-5">
                 <div class="col-lg-5 wow zoomIn" data-wow-delay="0.3s" style="min-height: 400px;">
                     <div class="twentytwenty-container position-relative h-100 rounded overflow-hidden">
-                        <img class="position-absolute w-100 h-100" src="{{asset('frontend/img/before.jpg')}}" style="object-fit: cover;">
-                        <img class="position-absolute w-100 h-100" src="{{asset('frontend/img/after.jpg')}}" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="{{asset('frontend/img/image copy 7.png')}}" style="object-fit: cover;" alt="Before recovery">
+                        <img class="position-absolute w-100 h-100" src="{{asset('frontend/img/image copy 7.png')}}" style="object-fit: cover;" alt="After recovery">
                     </div>
                 </div>
                 <div class="col-lg-7">
                     <div class="section-title mb-5">
-                        <h5 class="position-relative d-inline-block text-primary text-uppercase">Our Services</h5>
-                        <h1 class="display-5 mb-0">We Offer The Best Quality Dental Services</h1>
+                        <h5 class="position-relative d-inline-block text-primary text-uppercase">Our Programs</h5>
+                        <h1 class="display-5 mb-0">Comprehensive Mental Health & Recovery Services</h1>
                     </div>
                     <div class="row g-5">
                         <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.6s">
                             <div class="rounded-top overflow-hidden">
-                                <img class="img-fluid" src="{{asset('frontend/img/service-1.jpg')}}" alt="">
+                                <img class="img-fluid" src="{{asset('frontend/img/image.png')}}" alt="Individual therapy">
                             </div>
                             <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                <h5 class="m-0">Cosmetic Dentistry</h5>
+                                <h5 class="m-0">Individual Therapy</h5>
+                                <p class="mb-0">One-on-one sessions with licensed therapists</p>
                             </div>
                         </div>
                         <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.9s">
                             <div class="rounded-top overflow-hidden">
-                                <img class="img-fluid" src="{{asset('frontend/img/service-2.jpg')}}" alt="">
+                                <img class="img-fluid" src="{{asset('frontend/img/image copy.png')}}" alt="Online counseling">
                             </div>
                             <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                <h5 class="m-0">Dental Implants</h5>
+                                <h5 class="m-0">Online Counseling</h5>
+                                <p class="mb-0">Virtual therapy sessions from the comfort of your home</p>
                             </div>
                         </div>
                     </div>
@@ -57,27 +59,30 @@
                     <div class="row g-5">
                         <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.3s">
                             <div class="rounded-top overflow-hidden">
-                                <img class="img-fluid" src="{{asset('frontend/img/service-3.jpg')}}" alt="">
+                                <img class="img-fluid" src="{{asset('frontend/img/image copy 2.png')}}" alt="Group therapy">
                             </div>
                             <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                <h5 class="m-0">Dental Bridges</h5>
+                                <h5 class="m-0">Group Therapy</h5>
+                                <p class="mb-0">Peer support and shared healing experiences</p>
                             </div>
                         </div>
                         <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.6s">
                             <div class="rounded-top overflow-hidden">
-                                <img class="img-fluid" src="{{asset('frontend/img/service-4.jpg')}}" alt="">
+                                <img class="img-fluid" src="{{asset('frontend/img/image copy 3.png')}}" alt="Wellness workshop">
                             </div>
                             <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                <h5 class="m-0">Teeth Whitening</h5>
+                                <h5 class="m-0">Wellness Workshops</h5>
+                                <p class="mb-0">Skills-building for mental health management</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-5 service-item wow zoomIn" data-wow-delay="0.9s">
                     <div class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-4">
-                        <h3 class="text-white mb-3">Make Appointment</h3>
-                        <p class="text-white mb-3">Clita ipsum magna kasd rebum at ipsum amet dolor justo dolor est magna stet eirmod</p>
-                        <h2 class="text-white mb-0">+012 345 6789</h2>
+                        <h3 class="text-white mb-3">Start Your Recovery Today</h3>
+                        <p class="text-white mb-3">Take the first step toward healing with our compassionate team</p>
+                        <h2 class="text-white mb-3">+1 800-HELP-NOW</h2>
+                        <a href="appointment.html" class="btn btn-dark rounded-pill py-2 px-4">Schedule Consultation</a>
                     </div>
                 </div>
             </div>

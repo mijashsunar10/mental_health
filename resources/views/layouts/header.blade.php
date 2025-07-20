@@ -50,7 +50,7 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class=" navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
                 <a href="{{route('index')}}" class="nav-item nav-link active">Home</a>
                 <a href="{{route('about')}}" class="nav-item nav-link">About</a>

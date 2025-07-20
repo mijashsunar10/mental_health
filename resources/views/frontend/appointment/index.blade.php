@@ -15,59 +15,106 @@
     <!-- Hero End -->
 
 
-    <!-- Appointment Start -->
-    <div class="container-fluid bg-primary bg-appointment mb-5 wow fadeInUp" data-wow-delay="0.1s" style="margin-top: 90px;">
-        <div class="container">
-            <div class="row gx-5">
-                <div class="col-lg-6 py-5">
-                    <div class="py-5">
-                        <h1 class="display-5 text-white mb-4">We Are A Certified and Award Winning Dental Clinic You Can Trust</h1>
-                        <p class="text-white mb-0">Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.</p>
+   <!-- Appointment Start -->
+    <div class="container-fluid bg-gradient-primary my-5 wow fadeInUp" data-wow-delay="0.1s" style="background: linear-gradient(135deg, #4b6cb7 0%, #182848 100%);">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <!-- Left Content -->
+                <div class="col-lg-6 pe-lg-5">
+                    <div class="pe-lg-5">
+                        <h1 class="display-5 text-white mb-4">Begin Your Healing Journey Today</h1>
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="flex-shrink-0 bg-light rounded-circle p-3 me-3">
+                                <i class="fas fa-headset fa-2x text-primary"></i>
+                            </div>
+                            <div>
+                                <h5 class="text-white mb-0">24/7 Support Available</h5>
+                                <p class="text-white-50 mb-0">Immediate help for crisis situations</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="flex-shrink-0 bg-light rounded-circle p-3 me-3">
+                                <i class="fas fa-laptop-medical fa-2x text-primary"></i>
+                            </div>
+                            <div>
+                                <h5 class="text-white mb-0">Online & In-Person Sessions</h5>
+                                <p class="text-white-50 mb-0">Flexible treatment options to suit your needs</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <div class="flex-shrink-0 bg-light rounded-circle p-3 me-3">
+                                <i class="fas fa-certificate fa-2x text-primary"></i>
+                            </div>
+                            <div>
+                                <h5 class="text-white mb-0">Licensed Professionals</h5>
+                                <p class="text-white-50 mb-0">Evidence-based treatment approaches</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+                <!-- Right Form -->
                 <div class="col-lg-6">
-                    <div class="appointment-form h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn" data-wow-delay="0.6s">
-                        <h1 class="text-white mb-4">Make Appointment</h1>
+                    <div class="bg-white rounded shadow-lg p-5 wow zoomIn" data-wow-delay="0.6s">
+                        <h2 class="text-center text-dark mb-4">Schedule Your Consultation</h2>
                         <form>
                             <div class="row g-3">
-                                <div class="col-12 col-sm-6">
-                                    <select class="form-select bg-light border-0" style="height: 55px;">
-                                        <option selected>Select A Service</option>
-                                        <option value="1">Service 1</option>
-                                        <option value="2">Service 2</option>
-                                        <option value="3">Service 3</option>
-                                    </select>
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <select class="form-select bg-light border-0" style="height: 55px;">
-                                        <option selected>Select Doctor</option>
-                                        <option value="1">Doctor 1</option>
-                                        <option value="2">Doctor 2</option>
-                                        <option value="3">Doctor 3</option>
-                                    </select>
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <div class="date" id="date1" data-target-input="nearest">
-                                        <input type="text"
-                                            class="form-control bg-light border-0 datetimepicker-input"
-                                            placeholder="Appointment Date" data-target="#date1" data-toggle="datetimepicker" style="height: 55px;">
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <select class="form-select border-2 py-3" id="serviceType">
+                                            <option selected>Select Service Type</option>
+                                            <option value="online">Online Therapy Session</option>
+                                            <option value="in-person">In-Person Consultation</option>
+                                            <option value="intensive">Intensive Outpatient Program</option>
+                                            <option value="group">Group Therapy</option>
+                                            <option value="assessment">Mental Health Assessment</option>
+                                        </select>
+                                        {{-- <label for="serviceType">Service Type</label> --}}
                                     </div>
                                 </div>
-                                <div class="col-12 col-sm-6">
-                                    <div class="time" id="time1" data-target-input="nearest">
-                                        <input type="text"
-                                            class="form-control bg-light border-0 datetimepicker-input"
-                                            placeholder="Appointment Time" data-target="#time1" data-toggle="datetimepicker" style="height: 55px;">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control border-2 py-3" id="name" placeholder="Your Name">
+                                        <label for="name">Your Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control border-2 py-3" id="email" placeholder="Your Email">
+                                        <label for="email">Your Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="tel" class="form-control border-2 py-3" id="phone" placeholder="Phone">
+                                        <label for="phone">Phone Number</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <select class="form-select border-2 py-3" id="preference">
+                                            <option selected>Select Time Preference</option>
+                                            <option value="morning">Morning (8am-12pm)</option>
+                                            <option value="afternoon">Afternoon (12pm-5pm)</option>
+                                            <option value="evening">Evening (5pm-9pm)</option>
+                                            <option value="urgent">Urgent - Need Immediate Help</option>
+                                        </select>
+                                        {{-- <label for="preference">Time Preference</label> --}}
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-dark w-100 py-3" type="submit">Make Appointment</button>
+                                    <div class="form-floating">
+                                        <textarea class="form-control border-2 py-3" placeholder="Briefly describe your needs" id="message" style="height: 100px"></textarea>
+                                        <label for="message">How Can We Help You?</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">
+                                        <i class="fas fa-calendar-check me-2"></i> Request Appointment
+                                    </button>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <p class="text-muted mb-0">Or call us immediately at <a href="tel:+18005551234" class="text-primary">1-800-555-1234</a></p>
                                 </div>
                             </div>
                         </form>
